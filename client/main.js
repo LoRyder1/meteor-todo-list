@@ -9,6 +9,7 @@ Template.hello.onCreated(function helloOnCreated() {
 });
 
 Template.hello.helpers({
+  // shorthand for methods
   counter() {
     return Template.instance().counter.get();
   },
