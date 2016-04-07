@@ -21,3 +21,5 @@ Template.hello.events({
     instance.counter.set(instance.counter.get() + 1);
   },
 });
+
+import '../imports/ui/body.js';
